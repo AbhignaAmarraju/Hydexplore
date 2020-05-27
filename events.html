@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:black;
+}
+div {
+  background-color: white;
+  width: 1500px;
+height: 500px;
+ 
+ 
+  border-radius:5px;
+  font-family:Coronetscript, cursive;
+  font-size:30px;
+  color:black;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column1 {
+  float: right;
+  width: 35%;
+  padding: 10px;
+  height: 300px;
+justify-content: right; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<div>
+<div class="row">
+<div class="column">
+<h2> EVENTS HAPPENING IN HYDERABAD</h2>
+<p>-Due to the huge spread of corona virus Telangana CM KCR has announced lockdown upto APRIL 14th </p>
+<p>-As per the news the total members who are effected by the virus rose to 230</p>
+</div>
+
+<div class="column1"><p>WEATHER FORECAST</P><iframe src="https://www.meteoblue.com/en/weather/widget/daily?geoloc=detect&days=7&tempunit=CELSIUS&windunit=KNOT&precipunit=MILLIMETER&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&winddirection=0&winddirection=1&uv=0&humidity=0&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&spot=1&pressure=0&layout=dark"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 378px; height: 367px";></iframe>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

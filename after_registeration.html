@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+<style>
+
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #FFA500;
+}
+
+/* Style the buttons inside the tab */
+.tab button1 {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button1:hover {
+  background-color: #FFA500;
+}
+
+/* Create an active/current tablink class */
+.tab button1.active {
+  background-color: #fed8b1;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #FF0000;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+ top: 0px;
+  right: 28px;
+  width: 180px;
+}
+
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.buttonregister{
+ border: none;
+font-color:green;
+  background-color:white ;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.buttonregister:hover {background-color:white;}
+
+.register {color: green;}
+
+</style>
+</head>
+ 
+<body>
+  
+  <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                    <p> HYDXPLORE
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a class="active" href="mainpage.html">home</a></li>
+                                            <li><a href="events.html">Weather</a></li>
+                                            <li><a class="" href="shopping.html">Shopping</a></li>
+                                            <li><a class="" href="hotel.html">Hotels</a></l/li>
+                                            <li><a href="#">Tourist Spots <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                        <li><a href="history.html">Historic places</a></li>
+                                                        <li><a href="MUSEUM.html">Museums</a></li>
+                                                        <li><a href="amusementpark.html">Amusement Parks</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contactus.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 d-none d-lg-block">
+                                <div class="social_wrap d-flex align-items-center justify-content-end">
+                                    <button class="open-button"><a href="mainpage1.html" style="text-decoration:none";>LOGOUT</a></button>
+                                    <div class="number">
+                                        <p> <i class="fa fa-phone"></i> +91 63-0531-4605 </p>
+                                    </div>
+                                    <div class="social_links d-none d-xl-block">
+                                        <ul>
+                                            <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                                            <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="hyd23.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="buddha.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="hyd243.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="hyd30.jpg" style="width:100%">
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+
+function openCity(evt, spotName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(spotName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+</script>
+
+
+</body>
+</html> 
